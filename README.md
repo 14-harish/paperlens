@@ -166,7 +166,7 @@ streamlit run app.py
 
 Streamlit will display a local URL in the terminal. Open it in your browser to ask questions about the research papers.
 
-## 💬 Example Questions
+## Example Questions
 
 - What deep learning models are used for diabetic retinopathy detection?
 - Compare the approaches used in the five research papers.
@@ -186,7 +186,7 @@ python -m pytest -q
 
 Using `python -m pytest` ensures pytest runs with the active Python environment.
 
-## 🔍 Design Considerations
+## Design Considerations
 
 - **Local versus hosted computation:** PDF processing, embeddings, and vector retrieval run locally. Groq is used for LLM-based answer generation.
 - **Chunking:** Overlapping chunks help preserve context across text boundaries.
