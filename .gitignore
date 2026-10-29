@@ -1,0 +1,18 @@
+# Environment and secrets
+.venv/
+.env
+.env.*
+
+# Allow the safe example template
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Generated data
+data/chroma/
+data/sample_papers/
+.DS_Store
